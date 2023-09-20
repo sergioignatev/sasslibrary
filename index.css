@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+.button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button-red {
+  color: white;
+  background: red;
+}
+
 * {
   color: red;
   margin: 0;
